@@ -4,6 +4,7 @@ import Template from './Template'
 import Dog from './Dog'
 import ColorList from './ColorList'
 import PokemonDemo from './pokemon-demo/PokemonDemo'
+import Details from './pokemon-demo/Details'
 
 function App() {
   const navigate = useNavigate();
@@ -19,7 +20,8 @@ function App() {
         <Route path='/' element={<Template/>}/>
         <Route path='/dog' element={<Dog/>}/>
         <Route path='/color-list' element={<ColorList/>}/>
-        <Route path='/pokemon-demo' element={<PokemonDemo/>}/>
+        <Route path='/pokemon-demo/*' element={<PokemonDemo/>}/>
+        {/* <Route path='/pokemon-demo/details' element={<Details />} /> */}
       </Routes>
     </>
   )

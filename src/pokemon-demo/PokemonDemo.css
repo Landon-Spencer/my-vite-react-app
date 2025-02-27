@@ -1,0 +1,161 @@
+div{
+  display: grid;
+}
+
+.homepage{
+  display:grid;
+}
+
+#root{
+  display: grid;
+  justify-content: center;
+
+}
+
+html{
+  background-color:cadetblue;
+}
+
+.pokeList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px;
+  padding: 5px;
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  color:aliceblue;
+  font-size: xx-large;
+}
+
+.pokeman{
+  background-color: slategray;
+  border:solid;
+  border-radius: 25px;
+}
+
+.listName{
+  margin-bottom: -30px;
+}
+
+.pages{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  width: 30%;
+}
+
+.onlymon{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+a{
+  text-align: center;
+  max-height: 80%;
+}
+
+.container{
+  h1{
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .name-img{
+    padding: 15px 0px 15px 15px;
+  }
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  color: aliceblue;
+  border-radius: 5%;
+  border: solid 3px;
+  border-color: aliceblue;
+
+  .moves{
+    padding: 15px 15px 15px 0px;
+    font-size: x-large;
+    color: aliceblue;
+  }
+}
+
+/* button{
+  background-color: coral;
+  color: rgb(33, 83, 117);
+  border-radius: 10px;
+  height: 30px;
+  font-size: x-large;
+  font-weight: bold;
+} */
+
+.grass{
+  background: linear-gradient(to top, green, black);
+}
+
+.fire{
+  background: linear-gradient(to top, red, black);
+}
+
+.water{
+  background: linear-gradient(to top, blue, black);
+}
+
+.bug{
+  background: linear-gradient(to top, yellowgreen, black);
+}
+
+.normal{
+  background: linear-gradient(to top, tan, black);
+}
+
+.ghost{
+  background: linear-gradient(to top, purple, black);
+}
+
+.psychic{
+  background: linear-gradient(to top, pink, black);
+}
+
+.dark{
+  background: linear-gradient(to top, rgb(21, 21, 21), black);
+}
+
+.dragon{
+  background: linear-gradient(to top, orange, black);
+}
+
+.ice{
+  background: linear-gradient(to top, lightblue, black);
+}
+
+.rock{
+  background: linear-gradient(to top, brown, black);
+}
+
+.fairy{
+  background: linear-gradient(to top, pink, black);
+}
+
+.electric{
+  background: linear-gradient(to top, yellow, black);
+}
+
+.ground{
+  background: linear-gradient(to top, rgb(169, 101, 13), black);
+}
+
+.fighting{
+  background: linear-gradient(to top, red, black);
+}
+
+.steel{
+  background: linear-gradient(to top, silver, black);
+}
+
+.poison{
+  background: linear-gradient(to top, violet, black);
+}

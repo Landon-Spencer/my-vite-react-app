@@ -4,7 +4,7 @@ import DetailsContext from "./DetailsContext";
 
 export default function Pokemon({pokeData}){
   const [details, setdetails] = useState({})
-  const [pokeSprite, setpokeSprite] = useState('')
+  const [pokeSprite, setpokeSprite] = useState(null)
   const [type, setType] = useState('')
   const {setDetails} = useContext(DetailsContext)
 
@@ -22,7 +22,7 @@ export default function Pokemon({pokeData}){
     <>
       <div className={`pokeman ${type}`}>
         <h2 className="listName">{pokeData.name}</h2>
-        <Link to='/details' details={details}>
+        <Link to={`/pokemon-demo/details/${pokeData.name}`} details={details}>
           <img className="onlymon" key={pokeData.name} alt={pokeData.name} src={pokeSprite}
             onClick={() => setDetails(details)
             }/>
